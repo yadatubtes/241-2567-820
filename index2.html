@@ -6,8 +6,9 @@
     <title>Document</title>
     <style>
         .container .item {
-            background-color: red;
+           background-color: red;
         }
+        
         .footer-container .item {
             background-color: blue;
         }
@@ -45,38 +46,37 @@
         <div class="item">
             item
         </div>
-
     </div>
 
-    <!-- 2. item เป็นลูกของ container แค่ชั้นเดียว-->
-    <div class="main-container">
-        container
-        <div class="item">
-            item
+    <!-- 2. item เป็นลูกของ container แค่ชั้นเดียว -->
+     <div class="main-container">
+            container
             <div class="item">
-                item 1
+                item
+                <div class="item">
+                    item 1
+                </div>
+                <div class="item">
+                    item 2
+                </div>
+                <div class="item">
+                    item 3
+                </div>
             </div>
-            <div class="item">
-                item 2
-            </div>
-            <div class="item">
-                item 3
-            </div>
-        </div>
     </div>
 
     <!-- 3. มี class ติดกัน -->
-     <button class="button">ปุ่ม</button>
-     <button class="button active">ปุ่ม</button>
-     <button class="button danger">ปุ่ม</button>
+        <button class="button">ปุ่ม</button>
+        <button class="button active">ปุ่ม</button>
+        <button class="button danger">ปุ่ม</button>
 
-     <!-- 4. เพื่อนกัน adjacent -->
-      <div class="item1">Item 1</div>
-      <div class="item2">Item 2</div>
+    <!-- 4. เพื่อนกัน adjacent -->
+        <div class="item1">Item 1</div>
+        <div class="item2">Item 2</div>
 
-      <!-- 5. attribute selector -->
-       <input type="text" name="username">
-       <input type="text" name="password">
-       <input type="text" name="email">
+    <!-- 5. attribute selector -->
+        <input type="text" name="username">
+        <input type="text" name="password">
+        <input type="text" name="email">
 </body>
 </html>

@@ -11,10 +11,11 @@ body {
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
-    background-color: gray;
+    background-color: azure;
     padding: 20px;
     box-sizing: border-box;
 }
+
 .header {
     font-size: 30px;
     text-align: center;
@@ -38,17 +39,19 @@ input.form, textarea {
 }
 .button {
     border: 0;
-    width: 100%;
+    width: 50%;
+    background-color: aqua;
     height: 40px;
 }
-@media screen and (max-width: 768px){
-    .flex{
-    flex-direction: column;
+
+@media screen and (max-width: 768px) {
+    .flex {
+       flex-direction: column;
     }
     .header {
         font-size: 24px;
     }
     .button {
-        width: 100%;
+       width: 100%;
     }
 }
